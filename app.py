@@ -16,7 +16,7 @@ tokenizer, model = load_data()
 
 st.title("Chatbot in real time")
 from PIL import Image
-image = Image.open('Bot.jpg')
+image = Image.open('bot.jpg')
 st.image(image, caption='Bot')
 
 
